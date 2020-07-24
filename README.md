@@ -5,6 +5,7 @@
 * 内存: 十铨火神DDR4-2400
 * 显卡: 核显
 * 网卡/蓝牙: 无
+* 显示器: AOC U2790PQU 4K
 
 ## 主板BIOS设置
 * CFGLock -> Disabled
