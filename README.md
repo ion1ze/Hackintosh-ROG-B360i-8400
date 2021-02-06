@@ -1,11 +1,12 @@
 # Hackintosh-ROG-B360i-8400
+
 ## 配置
 * CPU: i5-8400
 * 主板: ROG-B360i
-* 内存: 十铨火神DDR4-2400
-* 显卡: 核显
-* 网卡/蓝牙: 无
-* 显示器: AOC U2790PQU 4K
+* 内存: 光威单条16GB
+* 显卡: RX560（肥猫家）
+* 网卡/蓝牙: 博通BCM94360CS2
+* 显示器: AOC U2790PQU 4K 27英寸
 
 ## 主板BIOS设置
 * CFGLock -> Disabled
@@ -24,7 +25,12 @@
 ## 仓库
 码云：`https://gitee.com/focuxin/Hackintosh-ROG-B360i-8400`
 
+## 2021-2-6更新
+* 更新OpenCore 0.6.6
+* 其他补丁啥的都更新了
+* 取消定制USB,具体定制USB可看这篇文章[黑苹果Catalina 15.x USB定制（Asrock Z370）](https://blog.csdn.net/LeoForBest/article/details/103247824)
+
 ## 2020-7-24更新
-更新OpenCore 0.6.0
+* 更新OpenCore 0.6.0
 
 
