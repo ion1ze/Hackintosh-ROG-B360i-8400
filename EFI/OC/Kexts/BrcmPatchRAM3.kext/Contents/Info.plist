@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G103</string>
+	<string>19H114</string>
 	<key>CFBundleExecutable</key>
 	<string>BrcmPatchRAM3</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.no-one.BrcmPatchRAM3</string>
+	<string>as.acidanthera.BrcmPatchRAM3</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.3.0d3</string>
+	<string>2.5.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -23,27 +23,29 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.3.0d3</string>
+	<string>2.5.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11A1027</string>
+	<string>12B45b</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.0</string>
 	<key>DTSDKBuild</key>
-	<string>19A547</string>
+	<string>20A2408</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.0</string>
 	<key>DTXcode</key>
-	<string>1110</string>
+	<string>1220</string>
 	<key>DTXcodeBuild</key>
-	<string>11A1027</string>
+	<string>12B45b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>0489_e032</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -64,7 +66,7 @@
 		<key>0489_e042</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -85,7 +87,7 @@
 		<key>0489_e046</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -106,7 +108,7 @@
 		<key>0489_e04f</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -127,7 +129,7 @@
 		<key>0489_e052</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth USB Device</string>
 			<key>FirmwareKey</key>
@@ -148,7 +150,7 @@
 		<key>0489_e055</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -169,7 +171,7 @@
 		<key>0489_e059</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -187,10 +189,31 @@
 			<key>idVendor</key>
 			<integer>1161</integer>
 		</dict>
+		<key>0489_e062</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>BCM43142 Bluetooth Adapter</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0277.0280_v4376</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>57442</integer>
+			<key>idVendor</key>
+			<integer>1161</integer>
+		</dict>
 		<key>0489_e079</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -211,7 +234,7 @@
 		<key>0489_e07a</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -232,7 +255,7 @@
 		<key>0489_e087</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -253,7 +276,7 @@
 		<key>0489_e096</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -274,7 +297,7 @@
 		<key>0489_e0a1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.1 USB</string>
 			<key>FirmwareKey</key>
@@ -295,7 +318,7 @@
 		<key>04ca_2003</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -316,7 +339,7 @@
 		<key>04ca_2004</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -337,7 +360,7 @@
 		<key>04ca_2005</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth Module</string>
 			<key>FirmwareKey</key>
@@ -358,7 +381,7 @@
 		<key>04ca_2006</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth Module</string>
 			<key>FirmwareKey</key>
@@ -376,10 +399,31 @@
 			<key>idVendor</key>
 			<integer>1226</integer>
 		</dict>
+		<key>04ca_2007</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Broadcom Bluetooth 4.0</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0277.0279_v4375</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8199</integer>
+			<key>idVendor</key>
+			<integer>1226</integer>
+		</dict>
 		<key>04ca_2009</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -400,7 +444,7 @@
 		<key>04ca_200a</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -421,7 +465,7 @@
 		<key>04ca_200b</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -442,7 +486,7 @@
 		<key>04ca_200c</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -463,7 +507,7 @@
 		<key>04ca_200e</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -484,7 +528,7 @@
 		<key>04ca_200f</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -505,7 +549,7 @@
 		<key>04ca_2012</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -526,7 +570,7 @@
 		<key>04ca_2016</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -544,10 +588,31 @@
 			<key>idVendor</key>
 			<integer>1226</integer>
 		</dict>
+		<key>04f2_b49d</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Bluetooth USB module</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0277.0308_v4404</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>46237</integer>
+			<key>idVendor</key>
+			<integer>1266</integer>
+		</dict>
 		<key>04f2_b4a1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -568,7 +633,7 @@
 		<key>050d_065a</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Belkin Bluetooth 4.0 USB Adapter</string>
 			<key>FirmwareKey</key>
@@ -589,7 +654,7 @@
 		<key>0930_021e</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth USB Device</string>
 			<key>FirmwareKey</key>
@@ -610,7 +675,7 @@
 		<key>0930_021f</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -631,7 +696,7 @@
 		<key>0930_0221</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -652,7 +717,7 @@
 		<key>0930_0223</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -673,7 +738,7 @@
 		<key>0930_0225</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -694,7 +759,7 @@
 		<key>0930_0226</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -715,7 +780,7 @@
 		<key>0930_0229</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -733,10 +798,31 @@
 			<key>idVendor</key>
 			<integer>2352</integer>
 		</dict>
+		<key>0a5c_2167</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0249.0265_v4361</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8551</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
 		<key>0a5c_2168</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>BCM43162 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -757,7 +843,7 @@
 		<key>0a5c_2169</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth USB Device</string>
 			<key>FirmwareKey</key>
@@ -778,7 +864,7 @@
 		<key>0a5c_216a</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Dell Wireless 1708 Bluetooth 4.0 LE Device</string>
 			<key>FirmwareKey</key>
@@ -799,7 +885,7 @@
 		<key>0a5c_216b</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 20702 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -820,7 +906,7 @@
 		<key>0a5c_216c</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 43142 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -841,7 +927,7 @@
 		<key>0a5c_216d</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 43142 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -862,7 +948,7 @@
 		<key>0a5c_216e</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 43162 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -883,7 +969,7 @@
 		<key>0a5c_216f</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>DW1560 Bluetooth 4.0 LE</string>
 			<key>FirmwareKey</key>
@@ -901,10 +987,52 @@
 			<key>idVendor</key>
 			<integer>2652</integer>
 		</dict>
+		<key>0a5c_21d3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0197.0218_v4314</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8659</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
+		<key>0a5c_21d6</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0197.0220_v4316</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8662</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
 		<key>0a5c_21d7</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Dell Wireless 1704 Bluetooth v4.0+HS</string>
 			<key>FirmwareKey</key>
@@ -922,10 +1050,52 @@
 			<key>idVendor</key>
 			<integer>2652</integer>
 		</dict>
+		<key>0a5c_21d8</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0197.0222_v4318</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8664</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
+		<key>0a5c_21dc</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Broadcom 43142 Bluetooth 4.0 Adapter</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0161.0187_v4283</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8668</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
 		<key>0a5c_21de</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -946,7 +1116,7 @@
 		<key>0a5c_21e1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 20702 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -967,7 +1137,7 @@
 		<key>0a5c_21e3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 20702 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -988,7 +1158,7 @@
 		<key>0a5c_21e6</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>ThinkPad Bluetooth 4.0</string>
 			<key>FirmwareKey</key>
@@ -1009,7 +1179,7 @@
 		<key>0a5c_21e8</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -1030,7 +1200,7 @@
 		<key>0a5c_21ec</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -1051,7 +1221,7 @@
 		<key>0a5c_21f1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -1072,7 +1242,7 @@
 		<key>0a5c_21f3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0</string>
 			<key>FirmwareKey</key>
@@ -1093,7 +1263,7 @@
 		<key>0a5c_21f4</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0</string>
 			<key>FirmwareKey</key>
@@ -1114,7 +1284,7 @@
 		<key>0a5c_21fb</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 20702 Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -1135,7 +1305,7 @@
 		<key>0a5c_21fd</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -1153,10 +1323,31 @@
 			<key>idVendor</key>
 			<integer>2652</integer>
 		</dict>
+		<key>0a5c_21fe</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Broadcom 43142 Bluetooth 4.0 Adapter</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0161.0186_v4282</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8702</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
 		<key>0a5c_640b</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -1177,7 +1368,7 @@
 		<key>0a5c_6410</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Dell Wireless 1830 Bluetooth 4.1 LE</string>
 			<key>FirmwareKey</key>
@@ -1198,11 +1389,11 @@
 		<key>0a5c_6412</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Dell Wireless 1820A Bluetooth 4.1 LE</string>
 			<key>FirmwareKey</key>
-			<string>BCM4350C5_003.006.007.0222.4689_v8785</string>
+			<string>BCM4350C5_003.006.007.0222.4689_v4689</string>
 			<key>IOClass</key>
 			<string>BrcmPatchRAM3</string>
 			<key>IOMatchCategory</key>
@@ -1219,7 +1410,7 @@
 		<key>0a5c_6413</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -1240,7 +1431,7 @@
 		<key>0a5c_6414</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.1 USB</string>
 			<key>FirmwareKey</key>
@@ -1261,7 +1452,7 @@
 		<key>0a5c_6417</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 20702 Bluetooth 4.0</string>
 			<key>FirmwareKey</key>
@@ -1282,7 +1473,7 @@
 		<key>0a5c_6418</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom 4371 Bluetooth 4.1 Adapter</string>
 			<key>FirmwareKey</key>
@@ -1303,7 +1494,7 @@
 		<key>0a5c_7460</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20703 Bluetooth USB Device</string>
 			<key>FirmwareKey</key>
@@ -1324,7 +1515,7 @@
 		<key>0b05_17b5</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth Module</string>
 			<key>FirmwareKey</key>
@@ -1345,7 +1536,7 @@
 		<key>0b05_17cb</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>ASUS USB-BT400</string>
 			<key>FirmwareKey</key>
@@ -1366,7 +1557,7 @@
 		<key>0b05_17cf</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1387,7 +1578,7 @@
 		<key>0b05_180a</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1408,7 +1599,7 @@
 		<key>0bb4_0306</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20703 Bluetooth USB Device</string>
 			<key>FirmwareKey</key>
@@ -1429,7 +1620,7 @@
 		<key>105b_e065</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0</string>
 			<key>FirmwareKey</key>
@@ -1450,7 +1641,7 @@
 		<key>105b_e066</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB</string>
 			<key>FirmwareKey</key>
@@ -1471,7 +1662,7 @@
 		<key>13d3_3384</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1492,7 +1683,7 @@
 		<key>13d3_3388</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -1513,7 +1704,7 @@
 		<key>13d3_3389</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>BCM43142 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -1534,7 +1725,7 @@
 		<key>13d3_3392</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth Module</string>
 			<key>FirmwareKey</key>
@@ -1555,7 +1746,7 @@
 		<key>13d3_3404</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth Module</string>
 			<key>FirmwareKey</key>
@@ -1576,7 +1767,7 @@
 		<key>13d3_3411</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom BCM20702 Bluetooth 4.0 +HS USB Device</string>
 			<key>FirmwareKey</key>
@@ -1597,7 +1788,7 @@
 		<key>13d3_3413</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1618,7 +1809,7 @@
 		<key>13d3_3418</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1639,7 +1830,7 @@
 		<key>13d3_3427</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.0 USB Device</string>
 			<key>FirmwareKey</key>
@@ -1660,7 +1851,7 @@
 		<key>13d3_3435</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1681,7 +1872,7 @@
 		<key>13d3_3456</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1702,7 +1893,7 @@
 		<key>13d3_3482</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1723,7 +1914,7 @@
 		<key>13d3_3484</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1744,7 +1935,7 @@
 		<key>13d3_3504</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1765,7 +1956,7 @@
 		<key>13d3_3508</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1786,7 +1977,7 @@
 		<key>13d3_3517</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Bluetooth USB module</string>
 			<key>FirmwareKey</key>
@@ -1807,7 +1998,7 @@
 		<key>145f_01a3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Trust Bluetooth 4.0 Adapter</string>
 			<key>FirmwareKey</key>
@@ -1825,10 +2016,52 @@
 			<key>idVendor</key>
 			<integer>5215</integer>
 		</dict>
+		<key>185f_2167</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Broadcom Bluetooth 4.0 USB</string>
+			<key>FirmwareKey</key>
+			<string>BCM43142A0_001.001.011.0277.0292_v4388</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8551</integer>
+			<key>idVendor</key>
+			<integer>6239</integer>
+		</dict>
+		<key>19ff_0239</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
+			<key>DisplayName</key>
+			<string>Micro size USB to Bluetooth Dongle</string>
+			<key>FirmwareKey</key>
+			<string>BCM20702B0_002.001.014.0527.0557_v4653</string>
+			<key>IOClass</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmPatchRAM3</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>569</integer>
+			<key>idVendor</key>
+			<integer>6655</integer>
+		</dict>
 		<key>413c_8143</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>DW1550 Bluetooth 4.0 LE</string>
 			<key>FirmwareKey</key>
@@ -1849,7 +2082,7 @@
 		<key>413c_8197</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>DisplayName</key>
 			<string>Dell Wireless 380 Bluetooth 4.0 Module</string>
 			<key>FirmwareKey</key>
@@ -1870,7 +2103,7 @@
 		<key>BrcmPatchRAMResidency</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.no-one.BrcmPatchRAM3</string>
+			<string>as.acidanthera.BrcmPatchRAM3</string>
 			<key>IOClass</key>
 			<string>BrcmPatchRAMResidency</string>
 			<key>IOMatchCategory</key>
@@ -1880,9 +2113,11 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.11</string>
+	<string>10.8</string>
 	<key>OSBundleLibraries</key>
 	<dict>
+		<key>as.acidanthera.BrcmFirmwareStore</key>
+		<string>2.5.6</string>
 		<key>com.apple.iokit.IOUSBHostFamily</key>
 		<string>1.0.1</string>
 		<key>com.apple.kpi.bsd</key>
@@ -1893,10 +2128,6 @@
 		<string>8.0</string>
 		<key>com.apple.kpi.mach</key>
 		<string>8.0</string>
-		<key>com.no-one.BrcmFirmwareStore</key>
-		<string>2.3.0d3</string>
 	</dict>
-	<key>Source Code</key>
-	<string>https://github.com/RehabMan/BrcmPatchRAM.git</string>
 </dict>
 </plist>
