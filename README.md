@@ -8,6 +8,11 @@
 * 网卡/蓝牙: 博通BCM94360CS2
 * 显示器: AOC U2790PQU 4K 27英寸
 
+## 状态
+MacOS 10.15.7 (当前使用)
+WiFi、蓝牙正常
+隔空投送正常
+
 ## 主板BIOS设置
 * CFGLock -> Disabled
 * VT-d -> Disabled
@@ -24,6 +29,11 @@
 
 ## 仓库
 码云：`https://gitee.com/focuxin/Hackintosh-ROG-B360i-8400`
+
+## 2021-2-9更新
+* 定制USB
+* 删除无用补丁
+* 优化启动速度
 
 ## 2021-2-6更新
 * 更新OpenCore 0.6.6
