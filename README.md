@@ -30,6 +30,9 @@ WiFi、蓝牙正常
 ## 仓库
 码云：`https://gitee.com/focuxin/Hackintosh-ROG-B360i-8400`
 
+## 2021-2-24更新
+* 添加GUI支持
+
 ## 2021-2-9更新
 * 定制USB
 * 删除无用补丁
