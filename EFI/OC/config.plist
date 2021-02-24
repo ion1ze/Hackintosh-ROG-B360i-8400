@@ -1063,6 +1063,7 @@
 		<array>
 			<string>OpenHfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
