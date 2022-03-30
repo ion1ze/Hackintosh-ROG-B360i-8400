@@ -33,6 +33,10 @@ WiFi、蓝牙正常、隔空投送正常
 ## 仓库
 码云：`https://gitee.com/focuxin/Hackintosh-ROG-B360i-8400`
 
+## Latest
+
+因为本人退坑黑苹果，相关硬件已经出了，本EFI无法继续维护。
+
 ## 2021-4-18更新
 * 重新定制USB
 
